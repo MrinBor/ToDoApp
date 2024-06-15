@@ -1,0 +1,102 @@
+/* Container styles */
+.c1 {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 12px;
+    height: auto;
+    margin: 12px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Gradient background for the inner container */
+.c2 {
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(48, 113, 255, 0.7), rgba(20, 20, 126, 0.8));
+    border-radius: 12px;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+}
+
+/* Textarea styles */
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+/* Neon button styles */
+button {
+    background: linear-gradient(45deg, #ff0c6d, #8215ff);
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 5px #062bff, 0 0 15px #1eff00;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+button:hover {
+    box-shadow: 0 0 20px #ff0066, 0 0 30px #ffcc00;
+}
+
+/* Task list styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+li button {
+    margin-left: 10px;
+    background: linear-gradient(45deg, #00ff99, #33ccff);
+    box-shadow: 0 0 5px #00ff99, 0 0 15px #33ccff;
+}
+
+li button:hover {
+    box-shadow: 0 0 20px #00ff99, 0 0 30px #33ccff;
+}
+
+/* Control buttons container */
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.controls button {
+    margin-right: 10px;
+}
+
+h5,
+label {
+    margin-bottom: 10px;
+    color: #2fff1d;
+}

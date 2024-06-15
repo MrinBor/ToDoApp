@@ -1,0 +1,50 @@
+.c1 {
+    background-color: rgb(77, 45, 255);
+    border-radius: 12px;
+    height: 520px;
+    margin: 12px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.c2 {
+    background: linear-gradient(135deg, rgb(0, 0, 0), rgb(48, 113, 255), rgb(20, 20, 126));
+    border-radius: 12px;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.controls button {
+    margin-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+li button {
+    margin-left: 10px;
+}
